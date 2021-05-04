@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Generic-->
+    <dimen name="spinner_margin_right">10dp</dimen>
+    <dimen name="custom_dropdown_list_padding">10dp</dimen>
+    <dimen name="spinner_text_size">11dp</dimen>
+    <dimen name="card_elevation">5dp</dimen>
+    <dimen name="card_radius">5dp</dimen>
+    <dimen name="layout_margin">10dp</dimen>
+    <dimen name="layout_margin_top">5dp</dimen>
+    <dimen name="button_radius">5dp</dimen>
+    <dimen name="sign_button_radius">12dp</dimen>
+    <dimen name="tab_text_size">11dp</dimen>
+    <dimen name="tab_height">65dp</dimen>
+    <dimen name="tab_height_bottom">70dp</dimen>
+    <dimen name="progress_bar_size">40dip</dimen>
+    <dimen name="progress_bar_margin">5dp</dimen>
+    <dimen name="tab_icon_image_size">20dp</dimen>
+    <dimen name="sign_in_image_height">200dp</dimen>
+
+    <!--Drawables Dimen-->
+    <dimen name="radius_background">27dp</dimen>
+
+    <!--Edit text Generic-->
+    <dimen name="edittext_padding">10dp</dimen>
+    <dimen name="edittext_margin">10dp</dimen>
+    <dimen name="edittext_size">15sp</dimen>
+    <dimen name="edittext_radius">10dp</dimen>
+    <dimen name="profile_edittext_radius">3dp</dimen>
+    <dimen name="signin_button_height">55dp</dimen>
+    <dimen name="button_height">50dp</dimen>
+    <dimen name="button_top_margin">10dp</dimen>
+
+    <!--Toolbar-->
+    <dimen name="toolbar_title_text_size">20dp</dimen>
+
+    <!--CheckBox-->
+    <dimen name="check_box_size">15dp</dimen>
+    <dimen name="check_box_radius">3dp</dimen>
+
+    <!--Toast-->
+    <dimen name="toast_right_margin">10dp</dimen>
+    <dimen name="toast_text_size">14dp</dimen>
+
+    <!--Progress Bar-->
+    <dimen name="progress_layout_height">40dp</dimen>
+    <dimen name="progress_height">24dp</dimen>
+
+    <!--Alert Dialog-->
+    <dimen name="dialog_margin">10dp</dimen>
+    <dimen name="between_btn_margin">5dp</dimen>
+    <dimen name="alert_dialog_text_size">14dp</dimen>
+
+    <!--Splash-->
+    <dimen name="splash_version_textview_padding">10dp</dimen>
+    <dimen name="splash_version_text_size">12dp</dimen>
+
+    <!--Sign in-->
+    <dimen name="login_margin">10dp</dimen>
+    <dimen name="login_margin_button_top">20dp</dimen>
+    <dimen name="login_text_sign">30dp</dimen>
+    <dimen name="login_stay_logged_text_sign">14dp</dimen>
+    <dimen name="login_fields_height">55dp</dimen>
+    <dimen name="check_padding_start">15dp</dimen>
+    <dimen name="check_padding_top">5dp</dimen>
+    <dimen name="register_message_text_size">14dp</dimen>
+
+
+    <!--Home-->
+    <dimen name="home_card_margin">10dp</dimen>
+    <dimen name="home_card_padding">5dp</dimen>
+    <dimen name="home_switch_padding">5dp</dimen>
+    <dimen name="home_padding">5dp</dimen>
+    <dimen name="home_margin">5dp</dimen>
+    <dimen name="home_stores_text_size">15dp</dimen>
+    <dimen name="home_accepting_text_size">13dp</dimen>
+    <dimen name="home_stores_summary_text_size">13dp</dimen>
+    <dimen name="home_stores_summary_title_text_size">11dp</dimen>
+    <dimen name="home_text_radius_size">40dp</dimen>
+    <dimen name="home_order_status_text_size">14dp</dimen>
+    <dimen name="home_alarm_padding">5dp</dimen>
+    <dimen name="home_recycler_view_button_height">40dp</dimen>
+    <dimen name="home_update_image_size">25dp</dimen>
+    <dimen name="home_switch_margin_start">20dp</dimen>
+
+    <!--Past Order-->
+    <dimen name="past_order_days_text_size">14dp</dimen>
+    <dimen name="past_order_days_margin_start">25dp</dimen>
+    <dimen name="past_order_days_margin_top">8dp</dimen>
+    <dimen name="past_order_days_margin_bottom">4dp</dimen>
+    <dimen name="past_order_body_recycler_view_margin_start">8dp</dimen>
+    <dimen name="past_order_body_recycler_view_margin_top">4dp</dimen>
+    <dimen name="past_order_body_recycler_view_padding">5dp</dimen>
+    <dimen name="past_order_number_padding">3dp</dimen>
+    <dimen name="past_order_padding">5dp</dimen>
+    <dimen name="past_order_number_text_size">15dp</dimen>
+    <dimen name="past_order_date_text_size">13dp</dimen>
+    <dimen name="past_order_item_text_size">12dp</dimen>
+    <dimen name="past_order_label_text_size">12dp</dimen>
+
+    <!--Profile-->
+    <dimen name="profile_card_margin">15dp</dimen>
+    <dimen name="details_rating_radius">4dp</dimen>
+    <dimen name="profile_rating_padding_start">8dp</dimen>
+    <dimen name="profile_rating_padding_top">3dp</dimen>
+    <dimen name="profile_stores_text_size">15dp</dimen>
+    <dimen name="profile_rating_text_size">13dp</dimen>
+    <dimen name="profile_rating_text_view_size">11dp</dimen>
+    <dimen name="profile_edit_padding">5dp</dimen>
+    <dimen name="profile_shop_image_height">120dp</dimen>
+
+    <!--Profile Gallery-->
+    <dimen name="gallery_image_width">90dp</dimen>
+    <dimen name="gallery_image_height">75dp</dimen>
+    <dimen name="gallery_image_margin">5dp</dimen>
+
+    <!--Photo View-->
+    <dimen name="photoview_margin_top">40dp</dimen>
+    <dimen name="photoview_margin_end">20dp</dimen>
+    <dimen name="photo_view_image_size">40dp</dimen>
+
+    <!--Review-->
+    <dimen name="review_margin">15dp</dimen>
+    <dimen name="review_margin_bottom">10dp</dimen>
+    <dimen name="review_checkbox_text_size">14dp</dimen>
+    <dimen name="review_load_more_size">40dp</dimen>
+    <dimen name="review_rupees_text_size">11dp</dimen>
+    <dimen name="review_date_text_size">12dp</dimen>
+    <dimen name="review_desc_text_size">13dp</dimen>
+
+    <!--Past Order Details-->
+    <dimen name="past_order_details_margin">12dp</dimen>
+    <dimen name="past_order_details_date_text_size">12dp</dimen>
+    <dimen name="past_order_details_rupee_text_size">15dp</dimen>
+    <dimen name="past_order_details_timeline_text_size">14dp</dimen>
+
+    <!--Revenue-->
+    <dimen name="revenue_margin">10dp</dimen>
+    <dimen name="revenue_currency_text_size">16dp</dimen>
+    <dimen name="revenue_small_text_size">14dp</dimen>
+    <dimen name="revenue_week_currency_text_size">24dp</dimen>
+    <dimen name="revenue_amount_text_size">18dp</dimen>
+    <dimen name="revenue_date_text_size">12dp</dimen>
+    <dimen name="revenue_margin_start">30dp</dimen>
+
+    <!--Menu-->
+    <dimen name="menu_margin">10dp</dimen>
+    <dimen name="menu_store_text_size">14dp</dimen>
+    <dimen name="menu_out_of_stock_text_size">12dp</dimen>
+    <dimen name="menu_in_stock_text_size">10dp</dimen>
+    <dimen name="menu_item_text_size">13dp</dimen>
+    <dimen name="menu_category_text_size">11dp</dimen>
+    <dimen name="menu_sub_category_text_size">10dp</dimen>
+    <dimen name="menu_amount_text_size">15dp</dimen>
+    <dimen name="menu_amount_margin_top">10dp</dimen>
+    <dimen name="menu_divider_heigth">1dp</dimen>
+
+    <!--Vendor Filter-->
+    <dimen name="vendor_filter_title_text_size">14dp</dimen>
+    <dimen name="vendor_button_padding">15dp</dimen>
+    <dimen name="vendor_text_margin_top">5dp</dimen>
+    <dimen name="vendor_filter_margin_top">35dp</dimen>
+    <dimen name="filter_text_size">13dp</dimen>
+
+</resources>

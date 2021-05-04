@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#0080FE</color>
+    <color name="colorPrimaryDark">#0080FE</color>
+    <color name="colorAccent">#008ECC</color>
+    <color name="windowBackground">#f2f4f7</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+
+
+    <color name="appColor">#E64C43</color>
+
+    <!--Generic-->
+    <color name="appTextColor">#5F5B5B</color>
+    <color name="edittext_text_color">#EFE2E2</color>
+    <color name="editTextHintColor">#99FFFFFF</color>
+
+    <color name="off_black_text_color">#727071</color>
+    <color name="editTextBgColor">#FE5454</color>
+    <color name="cursor_color">@color/colorPrimaryDark</color>
+    <color name="gray_color">#B6B6B6</color>
+    <color name="tab_select">#ED766E</color>
+
+    <!--Button-->
+    <color name="grayBackgroundColor">#797979</color>
+    <color name="button_gradient_left_color">@color/colorPrimary</color>
+    <color name="cancel_button_color">#FFA500</color>
+    <color name="buttonTextColor">#FEF1F1</color>
+
+    <!--Toast-->
+    <color name="toast_background_color">@color/colorPrimaryDark</color>
+
+
+    <!--Login-->
+    <color name="signin_bg_color">@color/colorPrimaryDark</color>
+
+    <!--Home-->
+    <color name="switch_text_color">#72B663</color>
+    <color name="stores_summary_text_color">#5B5858</color>
+    <color name="iconColor">#EDA8AD</color>
+
+    <!--Profile-->
+    <color name="profile_view_reviews_color">#E47A75</color>
+
+    <!--Reviews-->
+    <color name="review_checkbox_text_color">#727071</color>
+
+    <!--Past Order Details-->
+    <color name="rating_two_star">#F6813B</color>
+    <color name="rating_one_star">#EB3738</color>
+    <color name="rating_three_star">#655EE2</color>
+    <color name="rating_four_star">#D1E69B</color>
+    <color name="rating_five_star">#44B33A</color>
+
+    <!--Revenue-->
+    <color name="revenue_bg_color">@color/colorPrimary</color>
+    <color name="revenue_order_color">#001B45</color>
+
+    <!--Menu-->
+    <color name="menu_divider_color">#5E6D84</color>
+    <color name="menu_sub_category_color">#608AC4</color>
+
+    <!--Random color-->
+    <color name="pink">#F5A4A3</color>
+    <color name="skyblue">#F4E5A2</color>
+    <color name="oceangreen">#A2F6BA</color>
+    <color name="red">#FFFF4444</color>
+    <color name="purple">#FFAA66CC</color>
+    <color name="blue">#FF33B5E5</color>
+    <color name="orange">#FFFFBB33</color>
+
+    <color name="closeImageColor">#FF7DD2D9</color>
+    <color name="filter_row_text_color">#3A444A</color>
+
+</resources>

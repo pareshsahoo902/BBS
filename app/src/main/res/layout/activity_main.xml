@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/toolbar"/>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?attr/actionBarSize"
+            >
+            <LinearLayout
+                android:id="@+id/item_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="@dimen/vendor_text_margin_top"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/edittext_background"
+                android:orientation="vertical">
+
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/itemName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center"
+                    android:inputType="text"
+                    app:met_floatingLabel="highlight"
+                    android:hint="Item name"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:weightSum="2"
+                    >
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/itemDesc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left|center"
+                        android:layout_weight="1"
+                        android:inputType="numberDecimal"
+                        android:layout_marginRight="5dp"
+                        app:met_floatingLabel="highlight"
+                        android:hint="weight(KG)"
+                        />
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/itemQuantity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="left|center"
+                        android:inputType="number"
+                        app:met_floatingLabel="highlight"
+                        android:hint="Quantity(Packet)"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:weightSum="2"
+                    >
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/itemTotal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left|center"
+                        android:layout_weight="1"
+                        android:inputType="numberDecimal"
+                        android:layout_marginRight="20dp"
+                        app:met_floatingLabel="highlight"
+                        android:hint="Total Price(₹)"
+                        />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/appButtonStyle"
+                        android:layout_weight="1"
+                        android:enabled="false"
+                        android:layout_marginLeft="20dp"
+                        android:layout_margin="15dp"
+                        android:text="ADD ITEM"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/josefin_sans_semibold"
+                        android:id="@+id/addItem"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/customerDetailLay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="@dimen/vendor_text_margin_top"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:visibility="gone"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/edittext_background"
+                android:orientation="vertical">
+
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/customerName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center"
+                    android:inputType="text"
+                    app:met_floatingLabel="highlight"
+                    android:hint="Customer Name"
+                    />
+
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/customerContact"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left|center"
+                        android:layout_marginTop="10dp"
+                        android:inputType="phone"
+                        android:maxLength="10"
+                        android:layout_marginRight="5dp"
+                        app:met_floatingLabel="highlight"
+                        android:hint="Contact"
+                        />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:weightSum="2"
+                    >
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/discount"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left|center"
+                        android:layout_weight="1"
+                        android:inputType="numberDecimal"
+                        android:layout_marginRight="20dp"
+                        app:met_floatingLabel="highlight"
+                        android:hint="Discount(₹)"
+                        />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/appButtonStyle"
+                        android:layout_weight="1"
+                        android:enabled="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_margin="15dp"
+                        android:text="Create PDF"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/josefin_sans_semibold"
+                        android:id="@+id/createPDF"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/genarateBill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/appButtonStyle"
+                android:layout_below="@+id/item_lay"
+                android:layout_marginLeft="20dp"
+                android:enabled="false"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="Generate Bill"
+                android:fontFamily="@font/josefin_sans_semibold"
+                android:textAllCaps="true"
+                />
+
+
+            <LinearLayout
+                android:id="@+id/table"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:orientation="horizontal"
+                android:layout_below="@+id/genarateBill"
+                android:background="#DA0080FE"
+                android:paddingTop="10dp"
+                android:paddingBottom="6dp"
+                android:visibility="invisible"
+                android:weightSum="4"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start|center_vertical"
+                    android:layout_weight="1"
+                    android:text="Item"
+                    android:textColor="@color/white"
+                    android:textSize="13dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Weight(KG)"
+                    android:textSize="12dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Quantity"
+                    android:textSize="12dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Price"
+                    android:textSize="11dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/entryRecycler"
+                android:layout_below="@+id/table"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                />
+
+        </RelativeLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+
+</RelativeLayout>
